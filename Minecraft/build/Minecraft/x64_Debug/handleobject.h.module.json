@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "C:\\Users\\laval\\Desktop\\Minecraft\\build\\Minecraft\\x64_Debug\\HandleObject.h.obj",
+            "outputs": [
+                "C:\\Users\\laval\\Desktop\\Minecraft\\build\\Minecraft\\x64_Debug\\vc143.pdb",
+                "C:\\Users\\laval\\Desktop\\Minecraft\\build\\Minecraft\\x64_Debug\\",
+                "C:\\Users\\laval\\Desktop\\Minecraft\\build\\Minecraft\\x64_Debug\\HandleObject.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "include\\HandleObject.h",
+                    "source-path": "c:\\users\\laval\\desktop\\minecraft\\include\\handleobject.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

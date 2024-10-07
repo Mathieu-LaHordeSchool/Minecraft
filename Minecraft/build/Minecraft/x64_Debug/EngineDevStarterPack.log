@@ -1,0 +1,16 @@
+﻿  Analyse des sources à la recherche des dépendances de module...
+  Scene.cpp
+C:\Users\laval\Desktop\Minecraft\external\include\GLFW\glfw3.h(1186,16): warning C4099: 'GLFWwindow' : nom de type déjà rencontré avec 'class' et utilisant maintenant 'struct'
+  (compiler le fichier source 'src/Scene/Scene.cpp')
+  C:\Users\laval\Desktop\Minecraft\include\Input\Inputs.h(27,33):
+  voir la déclaration de 'GLFWwindow'
+  
+  WorldChunck.cpp
+C:\Users\laval\Desktop\Minecraft\src\WorldChunck.cpp(41,15): warning C4244: 'initialisation' : conversion de '_Ty' en 'int', perte possible de données
+C:\Users\laval\Desktop\Minecraft\src\WorldChunck.cpp(41,15): warning C4244:         with
+C:\Users\laval\Desktop\Minecraft\src\WorldChunck.cpp(41,15): warning C4244:         [
+C:\Users\laval\Desktop\Minecraft\src\WorldChunck.cpp(41,15): warning C4244:             _Ty=double
+C:\Users\laval\Desktop\Minecraft\src\WorldChunck.cpp(41,15): warning C4244:         ]
+C:\Users\laval\Desktop\Minecraft\src\WorldChunck.cpp(108,16): warning C4244: '+=' : conversion de 'float' en 'int', perte possible de données
+  Génération de code en cours...
+  EngineDevStarterPack.vcxproj -> C:\Users\laval\Desktop\Minecraft\bin\Minecraft_x64_Debug.exe

@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "C:\\Users\\laval\\Desktop\\Minecraft\\build\\Minecraft\\x64_Release\\BlockConstructor.h.obj",
+            "outputs": [
+                "C:\\Users\\laval\\Desktop\\Minecraft\\build\\Minecraft\\x64_Release\\vc143.pdb",
+                "C:\\Users\\laval\\Desktop\\Minecraft\\build\\Minecraft\\x64_Release\\",
+                "C:\\Users\\laval\\Desktop\\Minecraft\\build\\Minecraft\\x64_Release\\BlockConstructor.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "include\\BlockConstructor.h",
+                    "source-path": "c:\\users\\laval\\desktop\\minecraft\\include\\blockconstructor.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

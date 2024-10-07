@@ -1,0 +1,89 @@
+﻿  Analyse des sources à la recherche des dépendances de module...
+  Render.cpp
+C:\Users\laval\Desktop\Minecraft\include\Input\Inputs.h(27,33): warning C4099: 'GLFWwindow' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  (compiler le fichier source 'src/Render.cpp')
+  C:\Users\laval\Desktop\Minecraft\external\include\GLFW\glfw3.h(1186,16):
+  voir la déclaration de 'GLFWwindow'
+  
+C:\Users\laval\Desktop\Minecraft\include\Camera.h(15,20): warning C4099: 'HandleTimer' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  (compiler le fichier source 'src/Render.cpp')
+  C:\Users\laval\Desktop\Minecraft\include\HandleTimer.h(3,8):
+  voir la déclaration de 'HandleTimer'
+  
+C:\Users\laval\Desktop\Minecraft\src\Render.cpp(52,59): warning C4267: 'argument' : conversion de 'size_t' en 'GLsizei', perte possible de données
+  RenderObjectData.cpp
+C:\Users\laval\Desktop\Minecraft\include\Buffer.h(22,27): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+  (compiler le fichier source 'src/RenderObjectData.cpp')
+  C:\Users\laval\Desktop\Minecraft\include\Buffer.h(22,27):
+  le contexte d’instanciation du modèle (le plus ancien) est
+  	C:\Users\laval\Desktop\Minecraft\src\RenderObjectData.cpp(9,12):
+  	voir la référence à l'instanciation de la fonction modèle 'void Buffer::InitBuffer<float>(std::vector<float,std::allocator<float>>)' en cours de compilation
+  
+  WorldChunck.cpp
+C:\Users\laval\Desktop\Minecraft\src\WorldChunck.cpp(41,15): warning C4244: 'initialisation' : conversion de '_Ty' en 'int', perte possible de données
+C:\Users\laval\Desktop\Minecraft\src\WorldChunck.cpp(41,15): warning C4244:         with
+C:\Users\laval\Desktop\Minecraft\src\WorldChunck.cpp(41,15): warning C4244:         [
+C:\Users\laval\Desktop\Minecraft\src\WorldChunck.cpp(41,15): warning C4244:             _Ty=double
+C:\Users\laval\Desktop\Minecraft\src\WorldChunck.cpp(41,15): warning C4244:         ]
+C:\Users\laval\Desktop\Minecraft\src\WorldChunck.cpp(108,16): warning C4244: '+=' : conversion de 'float' en 'int', perte possible de données
+  main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(9531,5): warning C5105: l'expansion de macro produisant 'defined' a un comportement indéfini
+  (compiler le fichier source 'src/main.cpp')
+  
+C:\Users\laval\Desktop\Minecraft\include\Camera.h(15,20): warning C4099: 'HandleTimer' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  (compiler le fichier source 'src/main.cpp')
+  C:\Users\laval\Desktop\Minecraft\include\HandleTimer.h(3,8):
+  voir la déclaration de 'HandleTimer'
+  
+C:\Users\laval\Desktop\Minecraft\include\Scene\Scene.h(49,51): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+  (compiler le fichier source 'src/main.cpp')
+  C:\Users\laval\Desktop\Minecraft\include\Scene\Scene.h(49,51):
+  le contexte d’instanciation du modèle (le plus ancien) est
+  	C:\Users\laval\Desktop\Minecraft\src\main.cpp(59,32):
+  	voir la référence à l'instanciation de la fonction modèle 'T *Scene::CreateHandleObject<Camera,int,int,float,float,float,MinecraftWindow*>(int,int,float,float,float,MinecraftWindow *)' en cours de compilation
+          with
+          [
+              T=Camera
+          ]
+  
+MSVCRT.lib(initializers.obj) : warning LNK4098: conflit entre la bibliothèque par défaut 'libcmt.lib' et les autres bibliothèques ; utilisez /NODEFAULTLIB:library
+  Génération de code en cours
+  8 of 4144 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    20 functions had inline decision re-evaluated but remain unchanged
+  Fin de la génération du code
+glew32s.lib(glew.obj) : warning LNK4099: PDB '' n'a pu être trouvé avec 'glew32s.lib(glew.obj)' ou sur '' ; l'objet sera lié sans informations de débogage
+LINK : warning LNK4286: le symbole '__glewDeleteBuffers' défini dans 'glew32s.lib(glew.obj)' est importé par 'Buffer.obj'
+LINK : warning LNK4286: le symbole '__glewNamedBufferSubData' défini dans 'glew32s.lib(glew.obj)' est importé par 'Buffer.obj'
+LINK : warning LNK4286: le symbole '__glewMapNamedBufferRange' défini dans 'glew32s.lib(glew.obj)' est importé par 'Buffer.obj'
+LINK : warning LNK4286: le symbole '__glewNamedBufferStorage' défini dans 'glew32s.lib(glew.obj)' est importé par 'Buffer.obj'
+LINK : warning LNK4286: le symbole '__glewUnmapNamedBuffer' défini dans 'glew32s.lib(glew.obj)' est importé par 'Buffer.obj'
+LINK : warning LNK4286: le symbole '__glewCreateBuffers' défini dans 'glew32s.lib(glew.obj)' est importé par 'Buffer.obj'
+LINK : warning LNK4286: le symbole '__glewProgramUniformMatrix4fv' défini dans 'glew32s.lib(glew.obj)' est importé par 'Render.obj'
+LINK : warning LNK4286: le symbole '__glewDrawElementsInstanced' défini dans 'glew32s.lib(glew.obj)' est importé par 'Render.obj'
+LINK : warning LNK4286: le symbole '__glewGetUniformLocation' défini dans 'glew32s.lib(glew.obj)' est importé par 'Render.obj'
+LINK : warning LNK4286: le symbole '__glewUniform1i' défini dans 'glew32s.lib(glew.obj)' est importé par 'Render.obj'
+LINK : warning LNK4286: le symbole '__glewDeleteShader' défini dans 'glew32s.lib(glew.obj)' est importé par 'Shader.obj'
+LINK : warning LNK4286: le symbole '__glewShaderSource' défini dans 'glew32s.lib(glew.obj)' est importé par 'Shader.obj'
+LINK : warning LNK4286: le symbole '__glewGetShaderInfoLog' défini dans 'glew32s.lib(glew.obj)' est importé par 'Shader.obj'
+LINK : warning LNK4286: le symbole '__glewCreateShader' défini dans 'glew32s.lib(glew.obj)' est importé par 'Shader.obj'
+LINK : warning LNK4286: le symbole '__glewCompileShader' défini dans 'glew32s.lib(glew.obj)' est importé par 'Shader.obj'
+LINK : warning LNK4286: le symbole '__glewGetShaderiv' défini dans 'glew32s.lib(glew.obj)' est importé par 'Shader.obj'
+LINK : warning LNK4286: le symbole '__glewLinkProgram' défini dans 'glew32s.lib(glew.obj)' est importé par 'ShaderProgram.obj'
+LINK : warning LNK4286: le symbole '__glewDeleteProgram' défini dans 'glew32s.lib(glew.obj)' est importé par 'ShaderProgram.obj'
+LINK : warning LNK4286: le symbole '__glewAttachShader' défini dans 'glew32s.lib(glew.obj)' est importé par 'ShaderProgram.obj'
+LINK : warning LNK4286: le symbole '__glewGetProgramiv' défini dans 'glew32s.lib(glew.obj)' est importé par 'ShaderProgram.obj'
+LINK : warning LNK4286: le symbole '__glewCreateProgram' défini dans 'glew32s.lib(glew.obj)' est importé par 'ShaderProgram.obj'
+LINK : warning LNK4286: le symbole '__glewUseProgram' défini dans 'glew32s.lib(glew.obj)' est importé par 'ShaderProgram.obj'
+LINK : warning LNK4286: le symbole '__glewGenerateMipmap' défini dans 'glew32s.lib(glew.obj)' est importé par 'Texture.obj'
+LINK : warning LNK4286: le symbole '__glewActiveTexture' défini dans 'glew32s.lib(glew.obj)' est importé par 'Texture.obj'
+LINK : warning LNK4286: le symbole '__glewCreateVertexArrays' défini dans 'glew32s.lib(glew.obj)' est importé par 'VertexArray.obj'
+LINK : warning LNK4286: le symbole '__glewVertexArrayElementBuffer' défini dans 'glew32s.lib(glew.obj)' est importé par 'VertexArray.obj'
+LINK : warning LNK4286: le symbole '__glewEnableVertexArrayAttrib' défini dans 'glew32s.lib(glew.obj)' est importé par 'VertexArray.obj'
+LINK : warning LNK4286: le symbole '__glewVertexArrayBindingDivisor' défini dans 'glew32s.lib(glew.obj)' est importé par 'VertexArray.obj'
+LINK : warning LNK4286: le symbole '__glewDeleteVertexArrays' défini dans 'glew32s.lib(glew.obj)' est importé par 'VertexArray.obj'
+LINK : warning LNK4286: le symbole '__glewVertexArrayAttribFormat' défini dans 'glew32s.lib(glew.obj)' est importé par 'VertexArray.obj'
+LINK : warning LNK4286: le symbole '__glewVertexArrayAttribBinding' défini dans 'glew32s.lib(glew.obj)' est importé par 'VertexArray.obj'
+LINK : warning LNK4286: le symbole '__glewBindVertexArray' défini dans 'glew32s.lib(glew.obj)' est importé par 'VertexArray.obj'
+LINK : warning LNK4286: le symbole '__glewVertexArrayVertexBuffer' défini dans 'glew32s.lib(glew.obj)' est importé par 'WorldChunck.obj'
+  EngineDevStarterPack.vcxproj -> C:\Users\laval\Desktop\Minecraft\bin\Minecraft_x64_Release.exe
